@@ -1,4 +1,9 @@
-# CMPM 121 Section Activity starter
+# Changes I've made
+
+- fixed counter to actually update when button is clicked
+- When counter is set to 0, the button adds 1, but any other time it doubles the number in the counter
+
+## CMPM 121 Section Activity starter
 
 This is the Fall 2026 S01 starter for making a small interactive page and learning the path from a local edit to a published site. The course template is public: you do **not** need to join the course GitHub organization. Create a **public** repository under your own GitHub account using the template's **Use this template → Create a new repository** button.
 
@@ -18,3 +23,8 @@ The project uses [Vite 8.3.1](https://vite.dev/) for local preview and building,
 In **your repository**, open **Settings → Pages → Build and deployment** and set **Source** to **GitHub Actions**. Push a commit to `main`, then check the **Actions** tab for a successful deployment. The published URL should look like `https://<your-username>.github.io/<your-repository>/`. Open it and check that the button works there too. GitHub Actions may need to be enabled on a new repository before the workflow runs.
 
 For S01, submit the **repository URL**, not just the Pages URL, in the Canvas quiz. The teaching team checks the repository, workflow run, published page, code change, and README before awarding credit. If your computer cannot run the project, talk with your TA during section and describe what you tried in your quiz response.
+
+Changes I've made
+
+- fixed counter to actually update when button is clicked
+- When counter is set to 0, the button adds 1, but any other time it doubles the number in the counter
