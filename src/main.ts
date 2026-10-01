@@ -7,6 +7,7 @@ console.log("🎮 CMPM 121 - Starting...");
 
 // Simple counter for demonstration
 let counter: number = 0;
+let buttonPosition: number = 0;
 
 // Create basic HTML structure
 document.body.innerHTML = `
@@ -27,6 +28,13 @@ button.addEventListener("click", () => {
     counter *= 2;
     counterElement.textContent = counter.toString();
   }
-  // This looks like to a good place to add some logic!
-  console.log("I have these thingies:", button, counterElement, counter);
+  buttonPosition += 50;
+  button.style.marginLeft = `${buttonPosition}px`;
+  console.log(
+    "I have these thingies:",
+    button,
+    counterElement,
+    counter,
+    buttonPosition,
+  ); // can be deleted at end
 });

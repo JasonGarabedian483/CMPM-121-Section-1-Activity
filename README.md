@@ -2,6 +2,7 @@
 
 - fixed counter to actually update when button is clicked
 - When counter is set to 0, the button adds 1, but any other time it doubles the number in the counter
+- Made it so when the button is pressed, the button moves 50px to the right
 
 ## CMPM 121 Section Activity starter
 
